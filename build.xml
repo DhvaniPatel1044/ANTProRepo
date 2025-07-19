@@ -49,7 +49,7 @@
 			<classpath location="${lib}/testng-6.14.3.jar" />
 		</taskdef>
 		<testng outputdir="${report}" classpathref="classpath" useDefaultListeners="true">
-			<xmlfileset dir="${src}" includes="testng.xml" />
+			<xmlfileset dir="${basedir}" includes="testng.xml" />
 		</testng>
 	</target>
 
